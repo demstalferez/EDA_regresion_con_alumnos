@@ -3573,3 +3573,235 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-06-16 22:57:49,087:INFO:Copying training dataset
 2023-06-16 22:57:49,087:INFO:Plot type: rfe
 2023-06-16 22:57:49,147:INFO:Fitting Model
+2023-06-16 23:14:36,263:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-16 23:14:36,263:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-16 23:14:36,263:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-16 23:14:36,263:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-16 23:14:36,591:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-16 23:14:36,702:INFO:Initializing load_model()
+2023-06-16 23:14:36,702:INFO:load_model(model_name=Home_Price_Prediction.pkl, platform=None, authentication=None, verbose=True)
+2023-06-16 23:14:52,211:INFO:Initializing load_model()
+2023-06-16 23:14:52,211:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:14:52,291:INFO:Initializing predict_model()
+2023-06-16 23:14:52,292:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f85762d5bd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f85c02680d0>)
+2023-06-16 23:14:52,292:INFO:Checking exceptions
+2023-06-16 23:14:52,292:INFO:Preloading libraries
+2023-06-16 23:14:52,292:INFO:Set up data.
+2023-06-16 23:14:52,299:INFO:Set up index.
+2023-06-16 23:19:13,402:INFO:Initializing load_model()
+2023-06-16 23:19:13,402:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:19:13,756:INFO:Initializing load_model()
+2023-06-16 23:19:13,757:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:19:13,805:INFO:Initializing predict_model()
+2023-06-16 23:19:13,806:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f85c0264cd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f8576001240>)
+2023-06-16 23:19:13,807:INFO:Checking exceptions
+2023-06-16 23:19:13,807:INFO:Preloading libraries
+2023-06-16 23:19:13,807:INFO:Set up data.
+2023-06-16 23:19:13,811:INFO:Set up index.
+2023-06-16 23:22:17,424:INFO:Initializing load_model()
+2023-06-16 23:22:17,424:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:22:17,489:INFO:Initializing predict_model()
+2023-06-16 23:22:17,489:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f8576648fd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f85769567a0>)
+2023-06-16 23:22:17,489:INFO:Checking exceptions
+2023-06-16 23:22:17,489:INFO:Preloading libraries
+2023-06-16 23:22:17,490:INFO:Set up data.
+2023-06-16 23:22:17,494:INFO:Set up index.
+2023-06-16 23:22:36,526:INFO:Initializing load_model()
+2023-06-16 23:22:36,526:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:22:36,569:INFO:Initializing predict_model()
+2023-06-16 23:22:36,569:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f85762d6fb0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f85c0268c10>)
+2023-06-16 23:22:36,570:INFO:Checking exceptions
+2023-06-16 23:22:36,570:INFO:Preloading libraries
+2023-06-16 23:22:36,570:INFO:Set up data.
+2023-06-16 23:22:36,574:INFO:Set up index.
+2023-06-16 23:26:12,776:INFO:Initializing load_model()
+2023-06-16 23:26:12,776:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-16 23:26:52,507:INFO:Initializing load_model()
+2023-06-16 23:26:52,507:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:26:52,581:INFO:Initializing predict_model()
+2023-06-16 23:26:52,581:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f8576648fd0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f8576002a70>)
+2023-06-16 23:26:52,581:INFO:Checking exceptions
+2023-06-16 23:26:52,581:INFO:Preloading libraries
+2023-06-16 23:26:52,582:INFO:Set up data.
+2023-06-16 23:26:52,605:INFO:Set up index.
+2023-06-16 23:33:41,632:INFO:Initializing load_model()
+2023-06-16 23:33:41,636:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:37:36,123:INFO:Initializing load_model()
+2023-06-16 23:37:36,124:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:37:41,451:INFO:Initializing load_model()
+2023-06-16 23:37:41,451:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:37:41,505:INFO:Initializing predict_model()
+2023-06-16 23:37:41,505:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f85760441f0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f8576001fc0>)
+2023-06-16 23:37:41,506:INFO:Checking exceptions
+2023-06-16 23:37:41,506:INFO:Preloading libraries
+2023-06-16 23:37:41,506:INFO:Set up data.
+2023-06-16 23:37:41,534:INFO:Set up index.
+2023-06-16 23:43:19,277:INFO:Initializing load_model()
+2023-06-16 23:43:19,277:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:43:21,346:INFO:Initializing load_model()
+2023-06-16 23:43:21,346:INFO:load_model(model_name=Home_Price_Prediction, platform=None, authentication=None, verbose=True)
+2023-06-16 23:43:21,415:INFO:Initializing predict_model()
+2023-06-16 23:43:21,416:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f85762101f0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['MSSubClass', 'MSZoning',
+                                             'LotFrontage', 'LotArea', 'Street',
+                                             'LotShape', 'LandContour',
+                                             'Utilities', 'LotConfig',
+                                             'LandSlope', 'Neighborhood',
+                                             'Condition1', 'Condition2',
+                                             'BldgType', 'HouseStyle',
+                                             'OverallQual', 'OverallCond',
+                                             'YearBuilt', 'YearRemodAdd',
+                                             'RoofStyle', 'RoofMatl',
+                                             'Exterior1st', 'Exterior2nd',
+                                             'MasVnrType', 'MasVnrArea',
+                                             'ExterQual', 'ExterCond',
+                                             'Foundation', 'BsmtQual',
+                                             'BsmtCond', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=8663))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f85760016c0>)
+2023-06-16 23:43:21,416:INFO:Checking exceptions
+2023-06-16 23:43:21,416:INFO:Preloading libraries
+2023-06-16 23:43:21,416:INFO:Set up data.
+2023-06-16 23:43:21,440:INFO:Set up index.
